@@ -1,3 +1,2 @@
 # hello-world
-first 
-this is the first time i have played with github
+This is a place for random projects, or small code snippets. Needs to eventually be organized better
