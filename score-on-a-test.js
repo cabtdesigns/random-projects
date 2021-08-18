@@ -1,5 +1,5 @@
 // file will show a prompt where you enter how many points you got wrong on a test and show your precentage
-
+function calc(){
 
 const points = 50
 
@@ -21,4 +21,5 @@ else if (score >=60){
 }
 else if (score <=50){
   console.log(score + '%' + ' F');
+}
 }

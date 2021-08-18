@@ -6,6 +6,7 @@
 //2. If the number is less than 42 the response should be: "Eh, that's OK but X would be even better"  for this response `X` should be the number that they guessed + 1
 //3. If the number is higher than 42 the response should be: "LAME. That number is too large!"
 
+function robot(){
 let number = prompt('what is your favorite number', '')
 
 
@@ -23,3 +24,4 @@ else if (number = 42){
 
 
 console.log(response)
+}
