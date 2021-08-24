@@ -8,7 +8,7 @@ let quote = 'I dO nOT lIke gREen eGgS anD HAM';
 //convert to all lower case
 let fixedQuote = quote.toLowerCase();
 
-//make forst letter capital and slice it into the quote + add a period at end
+//make first letter capital and slice it into the quote + add a period at end
 let finalQuote =  fixedQuote.charAt(0).toUpperCase() + fixedQuote.slice(1) + '.';
 
 
@@ -22,8 +22,39 @@ para2.textContent = finalQuote;
 
 section.appendChild(para1);
 section.appendChild(para2);
+
+
+// as a function
+let quote = 'j wilL bE the BEST EvEr';
+
+function capitalize(string) {
+    let lowerCase = string.toLowerCase();
+    let finalQuote = lowerCase.charAt(0).toUpperCase() + lowerCase.slice(1) + '.';
+   console.log(finalQuote);
+}
+
+console.log(capitalize(quote));
     
 // *************************** end ******************************
+
+
+
+// ********************* Take last letter from a string **************************
+
+
+
+takeLastLetter = 'make sure to feed the dog';
+
+function lastLetter(string) {
+   let finalLetter =  string.charAt(string.length-1);
+    console.log(finalLetter);
+}
+
+console.log(lastLetter(takeLastLetter));
+
+// *************************** end ******************************
+
+
 
 // ********************* Trim a string **************************
 
