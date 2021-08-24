@@ -112,3 +112,42 @@ section.appendChild(para1);
 
 // *************************** end ******************************
 
+//****************************convert arrow function ***********************/
+
+
+// original code
+function ask(question, yes, no) {
+    if (confirm(question)) yes();
+    else no();
+  }
+  
+  ask(
+    "Do you agree?",
+    function() { alert("You agreed."); },
+    function() { alert("You canceled the execution."); }
+  );
+
+  //same code but with arrow functions
+  let ask = (question, yes, no) => {
+    if (confirm(question)) yes();
+    else no();
+  }
+  
+  ask(
+    "Do you agree?",
+    () => alert("You agreed."),
+    () => alert("You canceled the execution.")
+  );
+
+  //another example
+
+  let sum = (a, b) => a + b;
+
+/* This arrow function is a shorter form of:
+
+let sum = function(a, b) {
+  return a + b;
+};
+*/
+
+alert( sum(1, 2) ); // 3
