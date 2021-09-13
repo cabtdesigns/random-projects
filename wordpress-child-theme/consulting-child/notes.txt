@@ -1,0 +1,9 @@
+This is a base set up of a child theme in word press. 
+you need 
+stylesheet.css
+functions.php
+and the code in the functions file.
+
+if you want to add js you will need to add more to the functions.php file (not included in this example)
+
+if you want to add a screen shot of the child theme in WP, save a file called screenshot.png at 880px by 660px and placing it in the child folder.

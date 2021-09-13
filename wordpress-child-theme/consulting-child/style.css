@@ -1,0 +1,78 @@
+/*
+Theme Name: Consulting-Child
+Text Domain: consulting
+Template: consulting
+Version: 1.2.18
+Requires at least: 5.0
+Tested up to: 5.7
+Requires PHP: 5.6
+Description: Consulting is the free version of the multi-purpose professional theme (Consulting Pro) ideal for a business or blog website. The theme has a responsive layout, HD retina ready and comes with a powerful theme options panel with can be used to make awesome changes without touching any code. The theme also comes with a full width easy to use slider. Easily add a logo to your site and create a beautiful homepage using the built-in homepage layout.
+Tags: one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, photography
+Author: CABT Designs
+Author URI: https://www.thinkupthemes.com
+Theme URI: https://www.thinkupthemes.com/free/consulting-free/
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+#section-home-inner{
+	display:none;
+}
+
+.action-teaser{
+	font-size:2em;
+}
+
+#home-call-us{
+	width:100%;
+	/*background-color:#d4af37;*/
+	background: linear-gradient(174deg, #d4af37, #ffffff, #d4af37);
+	text-align:center;
+	color:#000;
+	border-radius: 25px;
+}
+
+#home-call-us h2{
+	color:#000;
+}
+
+#sub-footer{
+	background-color:#d4af37;
+	background: linear-gradient(174deg, #d4af37, #ffffff, #d4af37);
+}
+
+#flex-container{
+	display:flex;
+	flex-wrap: wrap;
+}
+#home-footer-image-left{
+	 flex-direction: row;
+	margin: auto;
+}
+
+#home-footer-text1, #home-footer-text2{
+	flex-direction: row;
+	margin: auto;
+	color:#000;
+}
+
+#home-footer-image-right{
+	flex-direction: row;
+	margin: auto;
+}
+
+.page-id-88 #menu-item-425 {
+display : none;
+}
+
+.page-id-88 #menu-item-426 {
+display : none;
+}
+
+.page-id-88 #res-menu-item-425 {
+display : none;
+}
+
+.page-id-88 #res-menu-item-426 {
+display : none;
+}
